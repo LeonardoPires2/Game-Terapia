@@ -28,11 +28,6 @@ function modelReady() {
 }
 
 
-
-
-
-
-
-
-
+ctx.scale(-1, 1);
+ctx.drawImage(canvas, -canvas.width, 0, canvas.width, canvas.height);
 
